@@ -54,7 +54,7 @@ var volumeOne = getSize(5,8,10)[1];
 ## 匿名函式
 #### 使用目的:在匿名函式中宣告的變數可以有效地與其他腳本中的相同名稱變數互相隔離保護，避免互相干擾
 * ### 立即執行函式—IIFE(Immediately Invoked Function Expression)
-#### 此種函式不具名稱，為匿名函式
+#### 此種函式不具名稱，為匿名函式，通常用來放載入畫面需要的資訊
 #### EX: area將會儲存函式傳回來的值，且此函式無法再次呼叫
 ```javascript=
 var area =(function(){
