@@ -15,7 +15,7 @@ el.className = 'cool'
 ##### 特性: length :節點串列中的項目數量
 ##### 方法: item() :取的串列中某個節點
 HTML
-```htmlmixed=
+```htmlmixed
 <ul>
   <li class="hot" id="one">one</li>
   <li class="hot" id="two">two</li>
@@ -23,7 +23,7 @@ HTML
 </ul>
 ```
 JS:取的li的每個東西，每個li都有一個索引值(index)，並利用item(index)方法取出某個節點項目
-```javascript=
+```javascript
 var items = document.getElementsByTagName('li')
 console.log(items.item(0))
 console.log(items.item(1))
@@ -32,7 +32,7 @@ var elements=document.getElementsByClassName('hot')
 console.log(elements.length)
 ```
 結果:
-```htmlmixed=
+```htmlmixed
 <!-- 0 --> "<li class='hot' id='one'>one</li>" 
 <!-- 1 --> "<li class='hot' id='two'>two</li>"
 <!-- 2 --> "<li class='hot' id='three'>three</li>"
@@ -45,7 +45,7 @@ console.log(elements.length)
 * #### firstChild : 尋找目前節點的第一個子節點
 * #### lastChild : 尋找目前節點的最後一個子節點
 HTML
-```htmlmixed=
+```htmlmixed
 <ul>
   <li class="hot" id="one">one</li>
   <li class="hot" id="two">two</li>
@@ -53,7 +53,7 @@ HTML
 </ul>
 ```
 JS
-```javascript=
+```javascript
 // 取得某個節點
 var startItem = document.getElementById('one')
 
@@ -67,7 +67,7 @@ console.log(parentItem)
 ```
 結果:
 
-```htmlmixed=
+```htmlmixed
 第一個console:
 <ul>
 <li class='cool' id='one'>one</li>
