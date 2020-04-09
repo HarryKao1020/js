@@ -15,7 +15,7 @@ el.className = 'cool'
 ##### 特性: length :節點串列中的項目數量
 ##### 方法: item() :取的串列中某個節點
 HTML
-```htmlmixed
+```html
 <ul>
   <li class="hot" id="one">one</li>
   <li class="hot" id="two">two</li>
@@ -45,7 +45,7 @@ console.log(elements.length)
 * #### firstChild : 尋找目前節點的第一個子節點
 * #### lastChild : 尋找目前節點的最後一個子節點
 HTML
-```htmlmixed
+```html
 <ul>
   <li class="hot" id="one">one</li>
   <li class="hot" id="two">two</li>
@@ -67,7 +67,7 @@ console.log(parentItem)
 ```
 結果:
 
-```htmlmixed
+```html
 第一個console:
 <ul>
 <li class='cool' id='one'>one</li>
