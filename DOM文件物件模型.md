@@ -4,7 +4,7 @@
 ### 1.  選取單一元件節點
 #### 方法:getElementById(),querySelector()
 
-```javascript=
+```javascript
 // 選取Id:one存在el變數中
 var el = document.getElementById('one')
 
